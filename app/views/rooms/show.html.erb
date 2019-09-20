@@ -1,0 +1,7 @@
+<h1>チャットルーム</h1>
+<div id="messages" data-room_id="<%= @room.id %>">
+  <%= render @messages %>
+</div>
+
+<%= label nil, nil, 'チャット:' %>
+<%= text_field nil, nil, 'data-behavior': 'room_speaker' %>
